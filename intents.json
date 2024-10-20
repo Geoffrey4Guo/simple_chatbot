@@ -1,0 +1,38 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey", "Hello", "Good day"],
+     "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["My pleasure", "You're Welcome"],
+     "context": [""]
+    },
+    {"tag": "query",
+     "patterns": ["What is a chatbot?", "what does a chatbot do?"],
+     "responses": ["A chatbot is a software application or web interface that mimics human conversation through text or voice interactions."],
+     "context": [""]
+    },
+    {"tag": "query",
+     "patterns": ["How big is the Earth?", "What is the Earth's size?", "Size of the Earth"],
+     "responses": ["The Earth is 510 million kilometers."],
+     "context": [""]
+    },
+    {"tag": "query",
+     "patterns": ["How many people are in the world?", "Population of the world"],
+     "responses": ["The current world population is 8.2 billion people."],
+     "context": [""]
+    },
+    {"tag": "query",
+     "patterns": ["What year is it?", "What is the year?", "Year"],
+     "responses": ["The year is 2024"],
+     "context": [""]
+    }
+
+]}
